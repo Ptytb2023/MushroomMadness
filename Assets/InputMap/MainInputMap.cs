@@ -116,6 +116,74 @@ namespace MushroomMadness.InputSystem
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MiniGame"",
+            ""id"": ""6f223a07-747f-41d1-a6f1-88c257105c89"",
+            ""actions"": [
+                {
+                    ""name"": ""ResetGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""8d5e6cce-a02c-484c-91a4-eb10e9f31b9b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ExitGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""961b55c9-9466-48fd-9172-2ab122f15756"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""StartGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""cd985951-e056-4e22-9f2b-0ac0a788cdae"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""490fac93-68f1-4160-876b-9daa3d328093"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseAndKeyboard"",
+                    ""action"": ""ResetGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d2728915-624b-48f4-a867-477d48fff3a4"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseAndKeyboard"",
+                    ""action"": ""ExitGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e4208963-f6cc-4f80-8f67-4a1297a2eb4d"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""StartGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -141,6 +209,11 @@ namespace MushroomMadness.InputSystem
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
             m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+            // MiniGame
+            m_MiniGame = asset.FindActionMap("MiniGame", throwIfNotFound: true);
+            m_MiniGame_ResetGame = m_MiniGame.FindAction("ResetGame", throwIfNotFound: true);
+            m_MiniGame_ExitGame = m_MiniGame.FindAction("ExitGame", throwIfNotFound: true);
+            m_MiniGame_StartGame = m_MiniGame.FindAction("StartGame", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -252,6 +325,68 @@ namespace MushroomMadness.InputSystem
             }
         }
         public PlayerActions @Player => new PlayerActions(this);
+
+        // MiniGame
+        private readonly InputActionMap m_MiniGame;
+        private List<IMiniGameActions> m_MiniGameActionsCallbackInterfaces = new List<IMiniGameActions>();
+        private readonly InputAction m_MiniGame_ResetGame;
+        private readonly InputAction m_MiniGame_ExitGame;
+        private readonly InputAction m_MiniGame_StartGame;
+        public struct MiniGameActions
+        {
+            private @MainInputMap m_Wrapper;
+            public MiniGameActions(@MainInputMap wrapper) { m_Wrapper = wrapper; }
+            public InputAction @ResetGame => m_Wrapper.m_MiniGame_ResetGame;
+            public InputAction @ExitGame => m_Wrapper.m_MiniGame_ExitGame;
+            public InputAction @StartGame => m_Wrapper.m_MiniGame_StartGame;
+            public InputActionMap Get() { return m_Wrapper.m_MiniGame; }
+            public void Enable() { Get().Enable(); }
+            public void Disable() { Get().Disable(); }
+            public bool enabled => Get().enabled;
+            public static implicit operator InputActionMap(MiniGameActions set) { return set.Get(); }
+            public void AddCallbacks(IMiniGameActions instance)
+            {
+                if (instance == null || m_Wrapper.m_MiniGameActionsCallbackInterfaces.Contains(instance)) return;
+                m_Wrapper.m_MiniGameActionsCallbackInterfaces.Add(instance);
+                @ResetGame.started += instance.OnResetGame;
+                @ResetGame.performed += instance.OnResetGame;
+                @ResetGame.canceled += instance.OnResetGame;
+                @ExitGame.started += instance.OnExitGame;
+                @ExitGame.performed += instance.OnExitGame;
+                @ExitGame.canceled += instance.OnExitGame;
+                @StartGame.started += instance.OnStartGame;
+                @StartGame.performed += instance.OnStartGame;
+                @StartGame.canceled += instance.OnStartGame;
+            }
+
+            private void UnregisterCallbacks(IMiniGameActions instance)
+            {
+                @ResetGame.started -= instance.OnResetGame;
+                @ResetGame.performed -= instance.OnResetGame;
+                @ResetGame.canceled -= instance.OnResetGame;
+                @ExitGame.started -= instance.OnExitGame;
+                @ExitGame.performed -= instance.OnExitGame;
+                @ExitGame.canceled -= instance.OnExitGame;
+                @StartGame.started -= instance.OnStartGame;
+                @StartGame.performed -= instance.OnStartGame;
+                @StartGame.canceled -= instance.OnStartGame;
+            }
+
+            public void RemoveCallbacks(IMiniGameActions instance)
+            {
+                if (m_Wrapper.m_MiniGameActionsCallbackInterfaces.Remove(instance))
+                    UnregisterCallbacks(instance);
+            }
+
+            public void SetCallbacks(IMiniGameActions instance)
+            {
+                foreach (var item in m_Wrapper.m_MiniGameActionsCallbackInterfaces)
+                    UnregisterCallbacks(item);
+                m_Wrapper.m_MiniGameActionsCallbackInterfaces.Clear();
+                AddCallbacks(instance);
+            }
+        }
+        public MiniGameActions @MiniGame => new MiniGameActions(this);
         private int m_MouseAndKeyboardSchemeIndex = -1;
         public InputControlScheme MouseAndKeyboardScheme
         {
@@ -265,6 +400,12 @@ namespace MushroomMadness.InputSystem
         {
             void OnMove(InputAction.CallbackContext context);
             void OnJump(InputAction.CallbackContext context);
+        }
+        public interface IMiniGameActions
+        {
+            void OnResetGame(InputAction.CallbackContext context);
+            void OnExitGame(InputAction.CallbackContext context);
+            void OnStartGame(InputAction.CallbackContext context);
         }
     }
 }

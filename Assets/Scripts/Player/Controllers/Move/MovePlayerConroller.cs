@@ -49,7 +49,7 @@ namespace MushroomMadness.Controllers
             if (_velocity.x == 0 && _velocity.z == 0)
                 return;
 
-            
+
             float speed = _congig.RotationSpeed;
 
             Vector3 moveDircetion = _velocity;
@@ -62,7 +62,7 @@ namespace MushroomMadness.Controllers
         private void Gravitation()
         {
             if (!_isGrounded)
-                _velocity.y += _congig.Gravity * Time.deltaTime;
+                _velocity.y += _congig.Gravity *  Time.deltaTime ;
         }
 
         private void OnClickJump()
@@ -73,10 +73,14 @@ namespace MushroomMadness.Controllers
 
         private void OnClickMove(bool isClick)
         {
-            if (!isClick) return;
-
-            if (_moving != null)
-                StopCoroutine(_moving);
+            if (!isClick)
+            {
+                if (_moving != null)
+                    StopCoroutine(_moving);
+                _velocity.x = 0f;
+                _velocity.z = 0f;
+                return;
+            }
 
             _moving = StartCoroutine(SetDirectionXAndZ());
         }

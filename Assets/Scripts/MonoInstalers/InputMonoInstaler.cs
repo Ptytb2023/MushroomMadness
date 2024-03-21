@@ -3,11 +3,11 @@ using Zenject;
 
 namespace MushroomMadness.Instalers
 {
-    public class PlayerMonoInstaler : MonoInstaller
+    public class InputMonoInstaler : MonoInstaller
     {
         public override void InstallBindings()
         {
-            Container.Bind<IInputMove>().To<InputManager>().FromNew().AsSingle();
+            Container.BindInterfacesAndSelfTo<InputManager>().AsSingle();
         }
     }
 }
