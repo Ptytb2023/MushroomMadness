@@ -1,17 +1,19 @@
-using MiniGame.CubesMoving.Cube;
+using MiniGame.MovingCubes.Cube;
 using MushroomMadness.InputSystem;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zenject;
 
-namespace MiniGame.CubesMoving.Controller
+namespace MiniGame.MovingCubes.Controller
 {
     public class MoveCubesController : MonoBehaviour
     {
         [SerializeField] private ContenerCubs _contener;
         [SerializeField] private float _speed;
 
+        [Inject]
         private IInputMove _inputMove;
 
         private List<CubeMoving> _cubes;
@@ -23,13 +25,12 @@ namespace MiniGame.CubesMoving.Controller
             _cubes = _contener.GetCubes().ToList();
         }
 
-        public void Init(IInputMove input)
+        public void OnEnable()
         {
-            _inputMove = input;
             _inputMove.ClickMove += OnClickMove;
         }
      
-        private void OnDestroy()
+        private void OnDisable()
         {
             _inputMove.ClickMove -= OnClickMove;
         }

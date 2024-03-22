@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MiniGame.CubesMoving.Cube
+namespace MiniGame.MovingCubes.Cube
 {
     [RequireComponent(typeof(Rigidbody))]
     public class CubeMoving : MonoBehaviour

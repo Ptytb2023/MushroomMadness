@@ -25,7 +25,6 @@ public class HandlerLaunchMiniGame : MonoBehaviour
         _bagroundCanvas.gameObject.SetActive(true);
 
         var game = Instantiate(miniGame, _pointSpawn);
-        game.InitGame(_input);
         game.transform.position = _pointSpawn.position;
 
         _currentMiniGame = game;
@@ -34,12 +33,12 @@ public class HandlerLaunchMiniGame : MonoBehaviour
 
         game.EndGame += ExitGame;
         _input.ClickExitGame += OnClickExitGame;
-        _input.ClickResetGame += OnResetGame;
+        _input.ClickResetGame += OnClickResetGame;
 
     }
     private void OnClickExitGame() => ExitGame(false);
 
-    private void OnResetGame()
+    private void OnClickResetGame()
     {
         _currentMiniGame?.ResetGame();
     }
@@ -53,7 +52,7 @@ public class HandlerLaunchMiniGame : MonoBehaviour
         EndGame?.Invoke(isSuccessfully);
         _currentMiniGame.EndGame -= ExitGame;
         _input.ClickExitGame -= OnClickExitGame;
-        _input.ClickResetGame -= OnResetGame;
+        _input.ClickResetGame -= OnClickResetGame;
 
         _playerController.enabled = true;
     }

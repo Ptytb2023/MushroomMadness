@@ -1,19 +1,21 @@
-using MiniGame.CubesMoving.Controller;
-using MushroomMadness.InputSystem;
 using System;
 using UnityEngine;
 
-namespace MiniGame.CubesMoving
+namespace MiniGame.MovingCubes
 {
     public class CubeMovingManagerGame : MiniGameManger
     {
-        [SerializeField] private FieldGame _field;
-        [SerializeField] private MoveCubesController _controller;
+        [SerializeField] private CubeSaver _saver;
         [SerializeField] private FinishZone _finish;
 
         public override event Action<bool> EndGame;
 
-        private void OnDestroy()
+        private void OnEnable()
+        {
+            _finish.EndGame += OnEndGame;
+        }
+
+        private void OnDisable()
         {
             _finish.EndGame -= OnEndGame;
         }
@@ -25,13 +27,7 @@ namespace MiniGame.CubesMoving
 
         public override void ResetGame()
         {
-           _field.ResetField();
-        }
-
-        public override void InitGame(InputManager input)
-        {
-            _controller.Init(input);
-            _finish.EndGame += OnEndGame;
+           _saver.ResetField();
         }
     }
 }

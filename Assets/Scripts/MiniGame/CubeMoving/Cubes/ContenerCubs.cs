@@ -1,8 +1,8 @@
-using MiniGame.CubesMoving.Cube;
+using MiniGame.MovingCubes.Cube;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MiniGame.CubesMoving
+namespace MiniGame.MovingCubes
 {
     public class ContenerCubs : MonoBehaviour
     {

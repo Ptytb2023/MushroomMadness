@@ -8,7 +8,6 @@ namespace MiniGame
     {
         public abstract event Action<bool> EndGame;
         public abstract void ResetGame();
-        public abstract void InitGame(InputManager input);
 
     }
 }

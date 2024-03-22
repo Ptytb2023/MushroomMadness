@@ -1,4 +1,4 @@
-using MiniGame.CubesMoving.Cube;
+using MiniGame.MovingCubes.Cube;
 
 
 public class PlayerCube : CubeMoving

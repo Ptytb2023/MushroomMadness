@@ -1,8 +1,8 @@
-using MiniGame.CubesMoving;
+using MiniGame.MovingCubes;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FieldGame : MonoBehaviour
+public class CubeSaver : MonoBehaviour
 {
     [SerializeField] private ContenerCubs _contener;
 
