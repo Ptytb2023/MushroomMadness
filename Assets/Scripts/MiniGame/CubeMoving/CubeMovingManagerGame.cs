@@ -1,14 +1,27 @@
+using MiniGame.MovingCubes.Config;
+using MiniGame.MovingCubes.Controller;
 using System;
 using UnityEngine;
 
 namespace MiniGame.MovingCubes
 {
+    [RequireComponent(typeof(MoveCubesController))]
     public class CubeMovingManagerGame : MiniGameManger
     {
-        [SerializeField] private CubeSaver _saver;
+        [SerializeField] private AssistanCubes _assistan;
         [SerializeField] private FinishZone _finish;
+        [SerializeField] private ConfigCubes _config;
+
+        private MoveCubesController _controler;
 
         public override event Action<bool> EndGame;
+
+        private void Start()
+        {
+            _controler = GetComponent<MoveCubesController>();
+            _assistan.Init(_config);
+            _controler.Init(_assistan);
+        }
 
         private void OnEnable()
         {
@@ -27,7 +40,7 @@ namespace MiniGame.MovingCubes
 
         public override void ResetGame()
         {
-           _saver.ResetField();
+            _assistan.Resetting();
         }
     }
 }

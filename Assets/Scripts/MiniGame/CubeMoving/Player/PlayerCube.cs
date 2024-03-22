@@ -1,10 +1,13 @@
-using MiniGame.MovingCubes.Cube;
+using UnityEngine;
 
-
-public class PlayerCube : CubeMoving
+namespace MiniGame.MovingCubes.Cubes
 {
-
-    protected override void FreezeAxis()
+    public class PlayerCube : BaseCube
     {
+        protected override void ResetCube()
+        {
+            Rigidbody.velocity = Vector3.zero;
+            transform.position = StartPosition;
+        }
     }
 }
