@@ -16,11 +16,10 @@ public class CameraMoving : MonoBehaviour
     [SerializeField] private bool _isLookOnTarget = true;
 
 
-
     [Space]
     [Header("Расположение камеры")]
 
-    [Tooltip("Поворот Вокруг Цели")]
+    [Tooltip("Отступ камеры")]
     [SerializeField] private Vector3 _offset;
 
 

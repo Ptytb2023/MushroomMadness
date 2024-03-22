@@ -5,7 +5,7 @@ namespace MiniGame.CubesMoving.Cube
     [RequireComponent(typeof(Rigidbody))]
     public class CubeMoving : MonoBehaviour
     {
-        [SerializeField] private EDirectionMoving _axisMovements;
+        [SerializeField] private DirectionMoving _axisMovements;
         [SerializeField] private bool _isMoving = true;
         [SerializeField] private bool _notBlockAxis = false;
 
@@ -22,7 +22,7 @@ namespace MiniGame.CubesMoving.Cube
         public void Move(Vector2 direction, float speed)
         {
             if (_isMoving)
-                if (_axisMovements == EDirectionMoving.Horizontal)
+                if (_axisMovements == DirectionMoving.Horizontal)
                     _rigidbody.velocity += new Vector3(direction.x, 0, 0) * speed * Time.deltaTime;
                 else
                     _rigidbody.velocity += new Vector3(0, 0, direction.y) * speed * Time.deltaTime;
@@ -38,7 +38,7 @@ namespace MiniGame.CubesMoving.Cube
             if (_notBlockAxis)
                 return;
 
-            if (_axisMovements == EDirectionMoving.Horizontal)
+            if (_axisMovements == DirectionMoving.Horizontal)
                 _rigidbody.constraints = RigidbodyConstraints.FreezePositionZ;
             else
                 _rigidbody.constraints = RigidbodyConstraints.FreezePositionX;

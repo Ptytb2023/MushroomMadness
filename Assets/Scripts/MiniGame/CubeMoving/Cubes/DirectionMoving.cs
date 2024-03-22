@@ -1,7 +1,7 @@
 
 namespace MiniGame.CubesMoving
 {
-    public enum EDirectionMoving
+    public enum DirectionMoving
     {
         Horizontal = 0,
         Vertical = 1,

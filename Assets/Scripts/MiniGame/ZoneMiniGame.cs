@@ -1,7 +1,6 @@
 using MiniGame;
 using MushroomMadness.InputSystem;
 using MushroomMadness.Player;
-using System.Threading;
 using UnityEngine;
 using Zenject;
 
