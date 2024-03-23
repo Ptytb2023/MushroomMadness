@@ -16,16 +16,13 @@ namespace MiniGame.MovingCubes
 
         public override event Action<bool> EndGame;
 
-        private void Start()
-        {
-            _controler = GetComponent<MoveCubesController>();
-            _assistan.Init(_config);
-            _controler.Init(_assistan);
-        }
-
         private void OnEnable()
         {
             _finish.EndGame += OnEndGame;
+
+            _controler = GetComponent<MoveCubesController>();
+            _assistan.Init(_config);
+            _controler.Init(_assistan);
         }
 
         private void OnDisable()

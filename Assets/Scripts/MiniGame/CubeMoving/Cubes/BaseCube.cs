@@ -13,14 +13,13 @@ namespace MiniGame.MovingCubes.Cubes
 
 
         protected Vector3 StartPosition;
-        protected Rigidbody Rigidbody { get; private set; }
+       [field:SerializeField] protected Rigidbody RigidbodyCube { get; private set; }
 
         protected DirectionMoving CurrentAxisMovemnet;
 
 
-        protected virtual void Start()
+        private void Start()
         {
-            Rigidbody = GetComponent<Rigidbody>();
             StartPosition = transform.position;
             CurrentAxisMovemnet = AxisMovement;
 
@@ -59,7 +58,7 @@ namespace MiniGame.MovingCubes.Cubes
 
         private void AddVelocity(Vector3 direction)
         {
-            Rigidbody.velocity += direction * Config.SpeedMove * Time.deltaTime;
+            RigidbodyCube.velocity += direction * Config.SpeedMove * Time.deltaTime;
         }
 
         private void FrezeRigidbody()
@@ -67,12 +66,12 @@ namespace MiniGame.MovingCubes.Cubes
             if (_frezePosition == FrezePosition.Standart)
             {
                 if (AxisMovement == DirectionMoving.Horizontal)
-                    Rigidbody.constraints = RigidbodyConstraints.FreezePositionZ;
+                    RigidbodyCube.constraints = RigidbodyConstraints.FreezePositionZ;
                 else if (AxisMovement == DirectionMoving.Vertical)
-                    Rigidbody.constraints = RigidbodyConstraints.FreezePositionX;
+                    RigidbodyCube.constraints = RigidbodyConstraints.FreezePositionX;
             }
 
-            Rigidbody.freezeRotation = true;
+            RigidbodyCube.freezeRotation = true;
         }
 
         public void Resetting()

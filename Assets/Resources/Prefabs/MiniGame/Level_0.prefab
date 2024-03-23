@@ -397,6 +397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 991771472876151516}
   _startVisible: 1
 --- !u!1 &3306593158116432687
 GameObject:
@@ -937,6 +938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 1
+  <RigidbodyCube>k__BackingField: {fileID: 3274398717514534059}
 --- !u!1 &4393734918407042652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,6 +1087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 6976788377229371086}
   _startVisible: 1
 --- !u!1 &4821345968388499909
 GameObject:

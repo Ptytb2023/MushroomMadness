@@ -33,7 +33,7 @@ namespace MiniGame.MovingCubes.Cubes
 
         protected override void ResetCube()
         {
-            Rigidbody.velocity = Vector3.zero;
+            RigidbodyCube.velocity = Vector3.zero;
             transform.position = StartPosition;
             _curentVisible = _startVisible;
 
@@ -55,7 +55,7 @@ namespace MiniGame.MovingCubes.Cubes
                 CurrentAxisMovemnet = DirectionMoving.None;
 
                 _collider.enabled = false;
-                Rigidbody.isKinematic = true;
+                RigidbodyCube.isKinematic = true;
             }
 
             else if (_curentVisible == StateVisible.On)
@@ -64,7 +64,7 @@ namespace MiniGame.MovingCubes.Cubes
                 CurrentAxisMovemnet = AxisMovement;
 
                 _collider.enabled = true;
-                Rigidbody.isKinematic = false;
+                RigidbodyCube.isKinematic = false;
             }
         }
     }

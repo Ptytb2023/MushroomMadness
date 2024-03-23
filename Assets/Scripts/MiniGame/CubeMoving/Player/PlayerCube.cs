@@ -6,7 +6,7 @@ namespace MiniGame.MovingCubes.Cubes
     {
         protected override void ResetCube()
         {
-            Rigidbody.velocity = Vector3.zero;
+            RigidbodyCube.velocity = Vector3.zero;
             transform.position = StartPosition;
         }
     }
