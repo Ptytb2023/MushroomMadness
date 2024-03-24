@@ -27,7 +27,8 @@ namespace MiniGame.Handlers
             _currentMiniGame = miniGame;
             SetActiveInspectCamera(true);
 
-            _player.OffMoveController();
+            _player.SetActiveMove(false);
+            Debug.Log(this.name + "SetActiveMove(false)");
 
             _currentMiniGame.EndGame += ExitGame;
             _input.ClickExitGame += OnClickExitGame;
@@ -60,7 +61,9 @@ namespace MiniGame.Handlers
             _input.ClickExitGame -= OnClickExitGame;
             _input.ClickResetGame -= OnClickResetGame;
 
-            _player.OnMoveController();
+            _player.SetActiveMove(true);
+            Debug.Log(this.name + "SetActiveMove(true)");
+
         }
 
         public Transform GetContenerMiniGame() => _pointSpawn;

@@ -19,13 +19,14 @@ namespace MushroomMadness.Player
 
         public void ResetPlayer()
         {
-            StartCoroutine(TurnOffMove());
+            StartCoroutine(TurnOffMoveOnSecond());
         }
 
-        private IEnumerator TurnOffMove()
+        private IEnumerator TurnOffMoveOnSecond()
         {
             float elapsedTime = _timeOffMove;
-            OffMoveController();
+            SetActiveMove(false);
+            Debug.Log(this.name + "SetActivfalse");
 
             transform.position = _startPosition;
 
@@ -35,18 +36,21 @@ namespace MushroomMadness.Player
                 yield return null;
             }
 
-            OnMoveController();
+            SetActiveMove(true);
+            Debug.Log(this.name + "SetActivTrue");
         }
 
-        public void OffMoveController()
-        {
-            _conroller.ResetMove();
-            _conroller.enabled = false;
-        }
 
-        public void OnMoveController()
+        public void SetActiveMove(bool active)
         {
-            _conroller.enabled = true;
+            if (active)
+                _conroller.enabled = true;
+            else if (!active)
+            {
+                _conroller.ResetMove();
+                _conroller.enabled = false;
+            }
         }
+       
     }
 }

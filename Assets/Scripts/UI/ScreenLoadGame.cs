@@ -1,8 +1,7 @@
+using MushroomMadness.SceneLoadGame;
 using System;
-using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace MushroomMadness.UI.LoadScene
@@ -11,32 +10,22 @@ namespace MushroomMadness.UI.LoadScene
     {
         [SerializeField] private Scrollbar _loadBar;
         [SerializeField] private TMP_Text _label;
-        [SerializeField][Min(0)] private float _delayLoad;
 
-        private AsyncOperation _asyncOperation;
+        [Space]
+        [SerializeField] private SceneLoadManager _sceneLoadManager;
 
         private const string _loadText = "Загрузка";
 
-        public void LoadScene(int SceneId)
-        {
-            if (!enabled) throw new NullReferenceException();
 
-            StartCoroutine(LoadSceneCor(SceneId));
+        private void OnEnable()
+        {
+            _sceneLoadManager.ChangeProgress += SetValueProgress;
         }
 
-        private IEnumerator LoadSceneCor(int SceneId)
+        private void OnDisable()
         {
-            yield return new WaitForSeconds(_delayLoad);
-            _asyncOperation = SceneManager.LoadSceneAsync(SceneId);
-
-            while (!_asyncOperation.isDone)
-            {
-                float progress = _asyncOperation.progress;
-                SetValueProgress(progress);
-                yield return null;
-            }
+            _sceneLoadManager.ChangeProgress -= SetValueProgress;
         }
-
 
         private void SetValueProgress(float progress)
         {

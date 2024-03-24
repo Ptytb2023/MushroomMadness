@@ -3,6 +3,7 @@ using MiniGame.Factory;
 using MiniGame.Handlers;
 using MushroomMadness.InputSystem;
 using MushroomMadness.Player;
+using System;
 using UnityEngine;
 using Zenject;
 
@@ -18,13 +19,14 @@ public class ZoneMiniGame : MonoBehaviour
     [Inject]
     private IInputMiniGame _input;
 
-    private bool _isPassed;
+    public bool IsPassed;
 
-    public MiniGameManger MiniGame => _miniGame;
+    public event Action PassedMiniGame;
+
 
     private void Start()
     {
-        _isPassed = false;
+        IsPassed = false;
         _miniGame = _factory.GetNewInstansMiniGame(_miniGame, _launcher.GetContenerMiniGame());
         _miniGame.gameObject.SetActive(false);
     }
@@ -32,7 +34,7 @@ public class ZoneMiniGame : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Player player))
-            if (!_isPassed)
+            if (!IsPassed)
                 TrunOnViewGame();
     }
 
@@ -64,10 +66,13 @@ public class ZoneMiniGame : MonoBehaviour
 
     private void OnEndGame(bool isPassed)
     {
-        _isPassed = isPassed;
+        IsPassed = isPassed;
 
-        if (_isPassed)
+        if (IsPassed)
+        {
             TrunOffViewGame();
+            PassedMiniGame?.Invoke();
+        }
         else
         {
             _input.ClickStartGame -= OnStartGame;

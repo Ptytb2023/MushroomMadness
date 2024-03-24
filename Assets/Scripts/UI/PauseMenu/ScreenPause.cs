@@ -9,8 +9,7 @@ namespace MushroomMadness.UI.Pause
         [SerializeField] private ButtonContinue _buttonContinue;
         [SerializeField] private ButtonExitGame _buttonExitGame;
 
-
-        public Action ExitGame;
+        public Action ExitInMainMenu;
         public Action ContinueGame;
 
         private void OnEnable()
@@ -25,7 +24,7 @@ namespace MushroomMadness.UI.Pause
             _buttonExitGame.OnButtonClick -= OnClickExitGame;
         }
 
-        private void OnClickExitGame() => ExitGame?.Invoke();
+        private void OnClickExitGame() => ExitInMainMenu?.Invoke();
         private void OnClickContinioGame() => ContinueGame?.Invoke();
     }
 }

@@ -1,4 +1,3 @@
-using MushroomMadness.Controllers;
 using MushroomMadness.Player;
 using UnityEngine;
 
@@ -10,9 +9,7 @@ public class DangerZone : MonoBehaviour
         if (other.TryGetComponent<Player>(out Player player))
             player.ResetPlayer();
 
-        Debug.Log(other.gameObject);
     }
-
 
     private void OnValidate()
     {
