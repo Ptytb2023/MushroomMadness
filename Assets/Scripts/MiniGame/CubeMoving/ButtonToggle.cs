@@ -91,7 +91,8 @@ public class ConfigButtonToggle
 {
     [field: SerializeField] public List<SwitchableCube> CubesOff { get; private set; }
     [field: SerializeField] public List<ButtonToggle> ButtonOff { get; private set; }
-    [field: SerializeField] public StateVisible StartVisible { get; private set; }
+
+    [field: SerializeField] public readonly StateVisible StartVisible = StateVisible.On;
 
     public readonly float AlphaTransparency = 0.3f;
 

@@ -8,13 +8,12 @@ namespace MiniGame.MovingCubes
     public class AssistanCubes : MonoBehaviour, IResetGame
     {
         public IEnumerable<BaseCube> Cubes;
+        public IEnumerable<ButtonToggle> Buttons;
 
-        private IEnumerable<IResetGame> _resetting;
 
         public void Init(ConfigCubes config)
         {
-            _resetting = GetComponentsInChildren<IResetGame>();
-
+            Buttons = GetComponentsInChildren<ButtonToggle>();
             Cubes = GetCubes();
 
             foreach (var cube in Cubes)
@@ -25,7 +24,18 @@ namespace MiniGame.MovingCubes
 
         public void Resetting()
         {
-            foreach (var item in _resetting)
+            RessettingCubes();
+
+            foreach (var item in Buttons)
+            {
+                item.Resetting();
+            }
+        }
+
+
+        private void RessettingCubes()
+        {
+            foreach (var item in Cubes)
             {
                 item.Resetting();
             }
