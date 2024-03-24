@@ -276,10 +276,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba83e5f72e4f104d9f7d224f74ef2bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cubesCouple:
-  - {fileID: 7247315647020994131}
-  _buttonCouple: {fileID: 0}
-  _startVisible: 1
+  _config:
+    <CubesOff>k__BackingField:
+    - {fileID: 141983035874989900}
+    - {fileID: 5118754817488009188}
+    - {fileID: 7698585174802062583}
+    <ButtonOff>k__BackingField:
+    - {fileID: 5657504841867807709}
+    <StartVisible>k__BackingField: 0
 --- !u!1 &2416695723654122373
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,9 +319,9 @@ Transform:
   - {fileID: 5658340199373376207}
   - {fileID: 553276221242297253}
   - {fileID: 5163746235786753683}
+  - {fileID: 6656122745963673468}
   - {fileID: 7046404075492045855}
   - {fileID: 6865443955017502973}
-  - {fileID: 6656122745963673468}
   m_Father: {fileID: 3110199006831450306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5623315214881594411
@@ -466,8 +470,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3377376301036937927}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.76, y: 0.5, z: -2.13}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.7599998, y: 0.5, z: -2.13}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -585,6 +589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 5230881016767711903}
   _startVisible: 1
 --- !u!1 &3469004606359416000
 GameObject:
@@ -615,7 +620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3469004606359416000}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.24, y: 0.5, z: -5.72}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -734,6 +739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 4915676159489150958}
   _startVisible: 1
 --- !u!1 &4414115553686702639
 GameObject:
@@ -883,6 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 4311075250646893512}
   _startVisible: 1
 --- !u!1 &4421697733862856838
 GameObject:
@@ -1138,6 +1145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 1
   <AxisMovement>k__BackingField: 1
+  <RigidbodyCube>k__BackingField: {fileID: 490221852865384005}
 --- !u!1 &5530593287238740849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,6 +1355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 1674065529733436506}
   _startVisible: 1
 --- !u!1 &5990493916034737810
 GameObject:
@@ -1608,6 +1617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frezePosition: 0
   <AxisMovement>k__BackingField: 0
+  <RigidbodyCube>k__BackingField: {fileID: 5064043621067488262}
   _startVisible: 1
 --- !u!1 &7023035678391768451
 GameObject:
@@ -2042,11 +2052,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba83e5f72e4f104d9f7d224f74ef2bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cubesCouple:
-  - {fileID: 7698585174802062583}
-  - {fileID: 5743801682556653402}
-  _buttonCouple: {fileID: 9110650051017816365}
-  _startVisible: 2
+  _config:
+    <CubesOff>k__BackingField:
+    - {fileID: 5743801682556653402}
+    <ButtonOff>k__BackingField: []
+    <StartVisible>k__BackingField: 0
 --- !u!1 &8815467537397880833
 GameObject:
   m_ObjectHideFlags: 0

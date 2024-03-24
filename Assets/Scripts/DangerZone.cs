@@ -1,14 +1,16 @@
+using MushroomMadness.Controllers;
 using MushroomMadness.Player;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class DangerZone : MonoBehaviour
 {
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent<Player>(out Player player))
-        Debug.Log(player);
+            player.ResetPlayer();
+
+        Debug.Log(other.gameObject);
     }
 
 

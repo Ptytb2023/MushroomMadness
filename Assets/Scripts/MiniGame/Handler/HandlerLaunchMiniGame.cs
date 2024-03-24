@@ -1,5 +1,6 @@
 using MushroomMadness.Controllers;
 using MushroomMadness.InputSystem;
+using MushroomMadness.Player;
 using System;
 using UnityEngine;
 using Zenject;
@@ -8,7 +9,7 @@ namespace MiniGame.Handlers
 {
     public class HandlerLaunchMiniGame : MonoBehaviour, IHandlerLaunch
     {
-        [SerializeField] private MovePlayerConroller _playerController;
+        [SerializeField] private Player _player;
         [SerializeField] private Camera _cameraMiniGame;
         [SerializeField] private Transform _pointSpawn;
         [SerializeField] private Canvas _bagroundCanvas;
@@ -26,7 +27,7 @@ namespace MiniGame.Handlers
             _currentMiniGame = miniGame;
             SetActiveInspectCamera(true);
 
-            _playerController.enabled = false;
+            _player.OffMoveController();
 
             _currentMiniGame.EndGame += ExitGame;
             _input.ClickExitGame += OnClickExitGame;
@@ -46,8 +47,8 @@ namespace MiniGame.Handlers
 
         private void OnClickExitGame() => ExitGame(false);
 
-        private void OnClickResetGame()=> _currentMiniGame?.ResetGame();
-       
+        private void OnClickResetGame() => _currentMiniGame?.ResetGame();
+
 
         private void ExitGame(bool isSuccessfully)
         {
@@ -59,7 +60,7 @@ namespace MiniGame.Handlers
             _input.ClickExitGame -= OnClickExitGame;
             _input.ClickResetGame -= OnClickResetGame;
 
-            _playerController.enabled = true;
+            _player.OnMoveController();
         }
 
         public Transform GetContenerMiniGame() => _pointSpawn;

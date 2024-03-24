@@ -62,7 +62,7 @@ namespace MushroomMadness.Controllers
         private void Gravitation()
         {
             if (!_isGrounded)
-                _velocity.y += _congig.Gravity *  Time.deltaTime;
+                _velocity.y += _congig.Gravity * Time.deltaTime;
         }
 
         private void OnClickJump()
@@ -119,6 +119,13 @@ namespace MushroomMadness.Controllers
             }
 
             yield break;
+        }
+
+
+        public void ResetMove()
+        {
+            StopAllCoroutines();
+            _velocity = Vector3.zero;
         }
     }
 }

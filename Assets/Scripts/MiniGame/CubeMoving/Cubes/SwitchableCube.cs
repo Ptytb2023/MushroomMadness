@@ -4,7 +4,7 @@ using UnityEngine;
 namespace MiniGame.MovingCubes.Cubes
 {
     [RequireComponent(typeof(MeshRenderer), typeof(Collider))]
-    public class SwitchableCube : BaseCube
+    public class SwitchableCube : BaseCube, IVisible
     {
         [SerializeField] private StateVisible _startVisible = StateVisible.On;
 
@@ -12,9 +12,10 @@ namespace MiniGame.MovingCubes.Cubes
         private SwitchableVisibility _switchableVisibility;
         private StateVisible _curentVisible;
 
-        public void SetStateVisible(StateVisible state)
+        public void SetVisible(StateVisible state)
         {
-            _startVisible = state;
+            _curentVisible = state;
+            ApplyVisible();
         }
 
         public override void Init(ConfigCubes config)
@@ -40,14 +41,7 @@ namespace MiniGame.MovingCubes.Cubes
             ApplyVisible();
         }
 
-        public void Toggle()
-        {
-            _curentVisible = _curentVisible == StateVisible.On ? StateVisible.Off : StateVisible.On;
-
-            ApplyVisible();
-        }
-
-        private void ApplyVisible()
+        public void ApplyVisible()
         {
             if (_curentVisible == StateVisible.Off)
             {
@@ -67,5 +61,6 @@ namespace MiniGame.MovingCubes.Cubes
                 RigidbodyCube.isKinematic = false;
             }
         }
+        
     }
 }

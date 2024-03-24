@@ -7,7 +7,7 @@ namespace MiniGame.MovingCubes.Controller
 {
     public class MoveCubesController : MonoBehaviour
     {
-         private AssistanCubes _assistan;
+        private AssistanCubes _assistan;
 
         [Inject]
         private IInputMove _inputMove;
@@ -46,7 +46,7 @@ namespace MiniGame.MovingCubes.Controller
             {
                 var direction = _inputMove.GetDirectionMove();
 
-                foreach (var cube in _assistan._cubes)
+                foreach (var cube in _assistan.Cubes)
                 {
                     cube.Move(direction);
                 }

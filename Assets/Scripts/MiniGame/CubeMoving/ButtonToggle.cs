@@ -1,51 +1,65 @@
+using MiniGame.MovingCubes;
 using MiniGame.MovingCubes.Cubes;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace MiniGame.MovingCubes
 {
     [RequireComponent(typeof(Collider), typeof(MeshRenderer))]
-    public class ButtonToggle : MonoBehaviour, IResetGame
+    public class ButtonToggle : MonoBehaviour, IResetGame, IVisible
     {
-        [SerializeField] private List<SwitchableCube> _cubesCouple;
-        [SerializeField] private ButtonToggle _buttonCouple;
-        [SerializeField] private StateVisible _startVisible;
+        [SerializeField] private ConfigButtonToggle _config;
 
         private SwitchableVisibility _visible;
+
         private StateVisible _currentVisible;
 
-
-        private const float _alphaTransparency = 0.4f;
-        private const float _durationFade = 0.3f;
-
-        public StateVisible StateVisible => _startVisible;
+        public StateVisible StateVisible => _config.StartVisible;
 
         private void Start()
         {
             var mesh = GetComponent<MeshRenderer>();
-            _currentVisible = _startVisible;
-            _visible = new SwitchableVisibility(mesh, _alphaTransparency, _durationFade);
-
-            SetStateVisiblForCubes();
-            ApplyVisibly();
+            _visible = new SwitchableVisibility(mesh, _config.AlphaTransparency, _config.DurationFade);
+            Resetting();
         }
 
+        public void SetVisible(StateVisible state)
+        {
+            _currentVisible = state;
+            ApplyVisible();
+        }
 
         private void OnTriggerEnter(Collider other)
         {
             if (other.TryGetComponent(out PlayerCube playerCube))
-                Toggle();
+                Togle();
         }
 
-        private void Toggle()
+        public void Togle()
         {
             _currentVisible = _currentVisible == StateVisible.On ? StateVisible.Off : StateVisible.On;
 
-            ApplyVisibly();
-            ToggleCubes();
+            ToggleAll();
+            ApplyVisible();
         }
 
-        private void ApplyVisibly()
+        private void ToggleAll()
+        {
+            SetVisible(_config.CubesOff, _currentVisible);
+
+            SetVisible(_config.ButtonOff, _currentVisible);
+        }
+
+        private void SetVisible(IEnumerable<IVisible> visible, StateVisible state)
+        {
+            foreach (var button in visible)
+            {
+                button.SetVisible(state);
+            }
+        }
+
+        public void ApplyVisible()
         {
             switch (_currentVisible)
             {
@@ -59,38 +73,27 @@ namespace MiniGame.MovingCubes
             }
         }
 
-        private void ToggleCubes()
+        public void Resetting()
         {
-            foreach (var cube in _cubesCouple)
-            {
-                cube.Toggle();
-            }
+            _currentVisible = _config.StartVisible;
+            ApplyVisible();
         }
-
-        private void SetStateVisiblForCubes()
-        {
-            StateVisible state = _currentVisible == StateVisible.On ? StateVisible.Off : StateVisible.On;
-
-            foreach (var cube in _cubesCouple)
-            {
-                cube.SetStateVisible(state);
-            }
-        }
-
 
         private void OnValidate()
         {
             GetComponent<Collider>().isTrigger = true;
-
-            if (_buttonCouple != null)
-                if (_buttonCouple.StateVisible == _currentVisible)
-                    Debug.LogError($"{_buttonCouple} It has the same starting state");
-        }
-
-        public void Resetting()
-        {
-            _currentVisible = _startVisible;
-            ApplyVisibly();
         }
     }
+}
+
+[Serializable]
+public class ConfigButtonToggle
+{
+    [field: SerializeField] public List<SwitchableCube> CubesOff { get; private set; }
+    [field: SerializeField] public List<ButtonToggle> ButtonOff { get; private set; }
+    [field: SerializeField] public StateVisible StartVisible { get; private set; }
+
+    public readonly float AlphaTransparency = 0.3f;
+
+    public readonly float DurationFade = 0.4f;
 }
