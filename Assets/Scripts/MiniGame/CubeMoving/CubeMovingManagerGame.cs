@@ -1,21 +1,33 @@
-using MiniGame.CubesMoving.Controller;
-using MushroomMadness.InputSystem;
+using MiniGame.MovingCubes.Config;
+using MiniGame.MovingCubes.Controller;
 using System;
 using UnityEngine;
 
-namespace MiniGame.CubesMoving
+namespace MiniGame.MovingCubes
 {
+    [RequireComponent(typeof(MoveCubesController))]
     public class CubeMovingManagerGame : MiniGameManger
     {
-        [SerializeField] private FieldGame _field;
-        [SerializeField] private MoveCubesController _controller;
+        [SerializeField] private AssistanCubes _assistan;
         [SerializeField] private FinishZone _finish;
+        [SerializeField] private ConfigCubes _config;
+
+        private MoveCubesController _controler;
 
         public override event Action<bool> EndGame;
 
-        private void OnDestroy()
+        private void OnEnable()
         {
-            _finish.EndGame -= OnEndGame;
+            _finish.PlayerReachedFinish += OnEndGame;
+
+            _controler = GetComponent<MoveCubesController>();
+            _assistan.Init(_config);
+            _controler.Init(_assistan);
+        }
+
+        private void OnDisable()
+        {
+            _finish.PlayerReachedFinish -= OnEndGame;
         }
 
         private void OnEndGame()
@@ -25,13 +37,7 @@ namespace MiniGame.CubesMoving
 
         public override void ResetGame()
         {
-           _field.ResetField();
-        }
-
-        public override void InitGame(InputManager input)
-        {
-            _controller.Init(input);
-            _finish.EndGame += OnEndGame;
+            _assistan.Resetting();
         }
     }
 }

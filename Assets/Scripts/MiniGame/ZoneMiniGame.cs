@@ -1,48 +1,58 @@
 using MiniGame;
+using MiniGame.Factory;
+using MiniGame.Handlers;
 using MushroomMadness.InputSystem;
 using MushroomMadness.Player;
-using System.Threading;
+using System;
 using UnityEngine;
 using Zenject;
 
 [RequireComponent(typeof(Collider))]
 public class ZoneMiniGame : MonoBehaviour
 {
-    [SerializeField] private HandlerLaunchMiniGame _handler;
-    [SerializeField] private BlinkText _text;
     [SerializeField] private MiniGameManger _miniGame;
+    [SerializeField] private Blockage _blockage;
 
-    private bool _isPassed;
-
+    [SerializeField] private BlinkText _text;
+    [SerializeField] private HandlerLaunchMiniGame _launcher;
+    [SerializeField] private FactoryMiniGame _factory;
+    
     [Inject]
     private IInputMiniGame _input;
 
+    public bool IsPassed;
+
+    public event Action PassedMiniGame;
+
+
     private void Start()
     {
-        _isPassed = false;
+        IsPassed = false;
+        _miniGame = _factory.GetNewInstansMiniGame(_miniGame, _launcher.GetContenerMiniGame());
+        _miniGame.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Player player))
-            if (!_isPassed)
-                TrunOnGame();
+            if (!IsPassed)
+                TrunOnViewGame();
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.TryGetComponent(out Player player))
-            TrunOffGame();
+            TrunOffViewGame();
     }
 
-    private void TrunOnGame()
+    private void TrunOnViewGame()
     {
         _text.Init("ֽאזלטעו ֵ");
         _text.gameObject.SetActive(true);
         _input.ClickStartGame += OnStartGame;
     }
 
-    private void TrunOffGame()
+    private void TrunOffViewGame()
     {
         _text.gameObject.SetActive(false);
         _input.ClickStartGame -= OnStartGame;
@@ -50,24 +60,27 @@ public class ZoneMiniGame : MonoBehaviour
 
     private void OnStartGame()
     {
-        _handler.StartGame(_miniGame);
-        _text.gameObject.SetActive(false);
-
-
-        _input.ClickStartGame -= OnStartGame;
-        _handler.EndGame += OnEndGame;
+        TrunOffViewGame();
+        _launcher.StartGame(_miniGame);
+        _launcher.EndGame += OnEndGame;
     }
 
     private void OnEndGame(bool isPassed)
     {
-        _isPassed = isPassed;
+        IsPassed = isPassed;
 
-        if (_isPassed)
-            TrunOffGame();
+        if (IsPassed)
+        {
+            TrunOffViewGame();
+            PassedMiniGame?.Invoke();
+            _blockage.ExplodePassege();
+        }
         else
         {
             _input.ClickStartGame -= OnStartGame;
-            TrunOnGame();
+            TrunOnViewGame();
         }
+
+        _launcher.EndGame += OnEndGame;
     }
 }

@@ -9,5 +9,8 @@ namespace MushroomMadness.InputSystem
 
         public event Action<bool> ClickMove;
         public Vector2 GetDirectionMove();
+
+        public void SetActiveMove(bool active);
+       
     }
 }

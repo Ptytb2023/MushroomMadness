@@ -16,30 +16,47 @@ namespace MushroomMadness.InputSystem
 
         public MainInputMap InputMap => _mainInputMap;
 
+        private bool _enabled;
+
         public InputManager()
         {
             _mainInputMap = new MainInputMap();
+            TurnOn();
+        }
+
+        public void SetActive(bool active)
+        {
+            if (active)
+                TurnOn();
+            else if (!active)
+                TurnOff();
+        }
+
+
+        private void TurnOn()
+        {
+            if (_enabled) return;
+
+            _enabled = true;
 
             _mainInputMap.Enable();
 
-            _mainInputMap.Player.Move.started += stx => ClickMove?.Invoke(true);
-            _mainInputMap.Player.Move.canceled += stx => ClickMove?.Invoke(false);
-
-            _mainInputMap.Player.Jump.performed += stx => ClickJump?.Invoke();
+            SetActiveMove(true);
 
             _mainInputMap.MiniGame.ResetGame.performed += stx => ClickResetGame?.Invoke();
             _mainInputMap.MiniGame.ExitGame.performed += stx => ClickExitGame?.Invoke();
-            _mainInputMap.MiniGame.StartGame.performed += stx => ClickStartGame?.Invoke();   
+            _mainInputMap.MiniGame.StartGame.performed += stx => ClickStartGame?.Invoke();
         }
 
-        public void OffInputManager()
+        private void TurnOff()
         {
+            if (!_enabled) return;
+
+            _enabled = false;
+
             _mainInputMap.Disable();
 
-            _mainInputMap.Player.Move.started -= stx => ClickMove.Invoke(true);
-            _mainInputMap.Player.Move.canceled -= stx => ClickMove.Invoke(false);
-
-            _mainInputMap.Player.Jump.performed -= stx => ClickJump.Invoke();
+            SetActiveMove(false);
 
             _mainInputMap.MiniGame.ResetGame.performed -= stx => ClickResetGame.Invoke();
             _mainInputMap.MiniGame.ExitGame.performed -= stx => ClickExitGame.Invoke();
@@ -53,7 +70,25 @@ namespace MushroomMadness.InputSystem
 
         public void Dispose()
         {
-            OffInputManager();
+            TurnOff();
+        }
+
+        public void SetActiveMove(bool active)
+        {
+            if (!active)
+            {
+                _mainInputMap.Player.Move.started -= stx => ClickMove.Invoke(true);
+                _mainInputMap.Player.Move.canceled -= stx => ClickMove.Invoke(false);
+
+                _mainInputMap.Player.Jump.performed -= stx => ClickJump.Invoke();
+            }
+            else if (active)
+            {
+                _mainInputMap.Player.Move.started += stx => ClickMove?.Invoke(true);
+                _mainInputMap.Player.Move.canceled += stx => ClickMove?.Invoke(false);
+
+                _mainInputMap.Player.Jump.performed += stx => ClickJump?.Invoke();
+            }
         }
     }
 }
