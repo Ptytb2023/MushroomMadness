@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d94e04091700fe4ab66069edcc75584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 1058409980756072347, guid: 82f8bec8c4cff3149a4153238e1b15c1, type: 3}
+  _miniGame: {fileID: 1058409980756072347, guid: 483a99e48f3ea744b83b966515dec029, type: 3}
   _blockage: {fileID: 1087763956}
   _text: {fileID: 1453115909}
   _launcher: {fileID: 124560008}
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d94e04091700fe4ab66069edcc75584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 1058409980756072347, guid: 82f8bec8c4cff3149a4153238e1b15c1, type: 3}
+  _miniGame: {fileID: 1058409980756072347, guid: 5eccea13c9cb62b43934d39e64edc9b4, type: 3}
   _blockage: {fileID: 446501846}
   _text: {fileID: 1453115909}
   _launcher: {fileID: 124560008}
@@ -3320,7 +3320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d94e04091700fe4ab66069edcc75584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 1058409980756072347, guid: 82f8bec8c4cff3149a4153238e1b15c1, type: 3}
+  _miniGame: {fileID: 3780089278716087517, guid: 91bc440c7d17fce488f2700b62a07023, type: 3}
   _blockage: {fileID: 4933304943815977314}
   _text: {fileID: 1453115909}
   _launcher: {fileID: 124560008}
@@ -3763,7 +3763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d94e04091700fe4ab66069edcc75584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 1058409980756072347, guid: 82f8bec8c4cff3149a4153238e1b15c1, type: 3}
+  _miniGame: {fileID: 1058409980756072347, guid: 18c9e7728fbb6414186f96717a6318a8, type: 3}
   _blockage: {fileID: 161107446}
   _text: {fileID: 1453115909}
   _launcher: {fileID: 124560008}
@@ -5636,7 +5636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25568753, y: 0.103825934}
   m_AnchorMax: {x: 0.7078751, y: 0.889826}
-  m_AnchoredPosition: {x: 8, y: 2.9760437}
+  m_AnchoredPosition: {x: 8, y: 2.9760132}
   m_SizeDelta: {x: -22.193115, y: -11.1558075}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641100203
@@ -7512,7 +7512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d94e04091700fe4ab66069edcc75584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 1058409980756072347, guid: 82f8bec8c4cff3149a4153238e1b15c1, type: 3}
+  _miniGame: {fileID: 1058409980756072347, guid: e1d95ffeffe29ae4aa7facd57f4487d7, type: 3}
   _blockage: {fileID: 776670746}
   _text: {fileID: 1453115909}
   _launcher: {fileID: 124560008}
