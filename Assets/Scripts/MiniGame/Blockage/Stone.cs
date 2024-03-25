@@ -6,10 +6,10 @@ using UnityEngine;
 public class Stone : MonoBehaviour
 {
     [SerializeField][Min(0f)] private float _delayDestroy;
-    [SerializeField] private float _timeFade;
-    [SerializeField] private float _colorChangeSpeed;
+    [SerializeField][Min(0f)] private float _timeFade;
+    [SerializeField][Min(0f)] private float _colorChangeSpeed;
 
-    private Rigidbody _rigidbody;
+    public Rigidbody Rigidbody;
     private MeshRenderer _meshRenderer;
 
     private const float _alphaVisible = 1f;
@@ -17,13 +17,14 @@ public class Stone : MonoBehaviour
 
     private void Start()
     {
-        _rigidbody = GetComponent<Rigidbody>();
+        Rigidbody = GetComponent<Rigidbody>();
         _meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    [ContextMenu("Test")]
     public void Broke()
     {
+        if (Rigidbody == null) return;
+        Rigidbody.isKinematic = false;
         StartCoroutine(DeleyDestroy());
     }
 

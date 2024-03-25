@@ -31,7 +31,5187 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.005Action"
+      internalID: 1263653699170455844
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.007Action"
+      internalID: 9034967061123112189
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|Cube.011Action"
+      internalID: 8364879113117261330
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: 3673254617320547537
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: -5856203713528278317
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: -1669782500143752461
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: -3232413035106671408
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: -4177320989261184946
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: 8081786928121866508
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      internalID: -5013081897096233291
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      internalID: -8069449433041303913
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      internalID: -9201920210940757755
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      internalID: 5617935680919037236
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      internalID: 2721858938735707943
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      internalID: 5655541243411899960
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      internalID: 867071435899129680
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      internalID: -6860957436550919171
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      internalID: 173405076403302364
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      internalID: -5992208857692812809
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      internalID: 7404457993888728494
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      internalID: -7019617387611327646
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action"
+      internalID: -3481101696655082388
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action.001"
+      internalID: -7168333277778772416
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041B\u0435\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041B\u0435\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      internalID: 2760899205032840899
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041F\u0440\u0430\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041F\u0440\u0430\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      internalID: -6945866542263451537
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0422\u0435\u043B\u043EAction"
+      internalID: -5102734511953750660
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: -4217965988437946519
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      internalID: 7412582153864501455
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.005Action"
+      internalID: -3853331989937031379
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.007Action"
+      internalID: -5231044934626089904
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|Cube.011Action"
+      internalID: -6411946089037180231
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: 1395551152187611951
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: 9090004506042243165
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: 3803775916516064582
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: -7678859793401978177
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: -1972134541409255236
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: -7204048753592934329
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: 8945617356877392336
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: -5954946142936968542
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: 1209627066946356964
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 799031494966404347
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: 2531093694171409211
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: -5815300409634620778
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: 4059803063260570008
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: -2142281157907567308
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: 6803146256102291205
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 1423897737154489323
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: -3288272567267753323
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: -291050861256522979
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      internalID: 3415955456453471029
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      internalID: 1209641463877124624
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: -7175957719975098387
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: -2675530995109975159
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0422\u0435\u043B\u043EAction"
+      internalID: -8111735191892503333
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: 8774139082042728435
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      internalID: 452967375355447911
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.005Action"
+      internalID: -1164921674462193742
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.007Action"
+      internalID: 4331189985585838150
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|Cube.011Action"
+      internalID: 387248878445753858
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: -6165832594591478637
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: -2296662029127897189
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: -7604305529941531847
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: 8305562838658289111
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: 8809512891955817076
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: -1432503159835264312
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      internalID: 5939083316487547578
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      internalID: 3665539992294379454
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      internalID: 8136620426050574614
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      internalID: -3449651927451816933
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      internalID: 150608559666246596
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      internalID: -6765891394339347428
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action"
+      internalID: 940578000590424988
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.001"
+      internalID: 7095006621938472284
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438Action.002"
+      internalID: 2532921128621499228
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action"
+      internalID: 1143886447650626250
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      internalID: -868291164506070948
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.002"
+      internalID: -5139220479350205035
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action"
+      internalID: -2142804358943941233
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430Action.001"
+      internalID: -5754155262283916548
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041B\u0435\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041B\u0435\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      internalID: -8577020908927472764
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041F\u0440\u0430\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u041F\u0440\u0430\u0432\u0430\u044F \u043D\u043E\u0433\u0430Action"
+      internalID: -8090437275882859979
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0422\u0435\u043B\u043EAction"
+      internalID: -7641085836269891542
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: -7932291274650253946
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u043D\u043E\u0433\u0438|\u0428\u043B\u044F\u043F\u0430Action"
+      internalID: 6497629818087898312
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.005Action"
+      internalID: -2460882965777966513
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.007Action"
+      internalID: 9012535494109990193
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|Cube.011Action"
+      internalID: 4214181857810221024
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: 7390094830645639563
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: -2512201523012060026
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: 2864540433350247799
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: -306868892295879496
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: 6391377642887340197
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: -4733328559626143001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -6158397496082138394
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: -1635043908613784743
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: -5002918905949309232
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 4609928816618317677
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: 752729334532773123
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: -4233183516378932642
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -7947898186073323753
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: 6036115786198873924
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: -1488375222585847408
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: -2807296749672864236
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: -8949997234368569846
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: -4358450571319322495
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      internalID: 5222099757266751988
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      internalID: 5373047788708309535
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: 250692847602935324
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: 4273583556013027908
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0422\u0435\u043B\u043EAction"
+      internalID: 3370820616019853174
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: 6297183252811181875
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001 (1)"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438|\u041A\u043E\u0441\u0442\u044C \u043F\u0440\u0430\u0432\u043E\u0439
+        \u0440\u0443\u043A\u0438Action.001"
+      internalID: 4461307525968806471
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.005Action"
+      internalID: 1620731265171324495
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.007Action"
+      internalID: -9060046743997829748
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|Cube.011Action"
+      internalID: -5629020270880848914
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: 8808470929718052439
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: -738183240543462344
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: 688249645963810440
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: -2312044850782456013
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: -549091433799679218
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: 889967372473868922
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -8793723490185939052
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: 4459123469084297044
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: 2755779806506463629
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 1954205578009192149
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: 2014614162106889583
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: -4875364357860278272
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -7886966742210412129
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: 3987208505385682466
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: -6440096060348993045
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 7070169531556120302
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: -5655135904862346131
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: 8019450239634555610
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      internalID: 7386428492220169171
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      internalID: 1337766989083824858
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: -3698400598739565372
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: -2149618992224057254
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0422\u0435\u043B\u043EAction"
+      internalID: -7898794491108343705
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: -6676929668597270217
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0428\u043B\u044F\u043F\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0442\u0435\u043B\u0430|\u0428\u043B\u044F\u043F\u0430Action"
+      internalID: 6380057618421499441
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.005Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.005Action"
+      internalID: 6931483488866641491
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.007Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.007Action"
+      internalID: 8126690594570278189
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.011Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|Cube.011Action"
+      internalID: 6668915613550866014
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0411\u0440\u043E\u0432\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0411\u0440\u043E\u0432\u0438Action"
+      internalID: -6533829637996058910
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043B\u0430\u0437\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043B\u0430\u0437\u0430Action"
+      internalID: 3000321265109068652
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043E\u043B\u043E\u0432\u0430Action"
+      internalID: -5038338949397770196
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0413\u043E\u043B\u043E\u0432\u0430Action.001"
+      internalID: 3439622071934299043
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction"
+      internalID: -4629057109287962401
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0433\u043E\u043B\u043E\u0432\u044BAction.001"
+      internalID: -7858897246393832508
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -6315860747707821841
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: -155533431061064911
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: -8600655495700886908
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 8361947476683585068
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: -744452064148142037
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043B\u0435\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: 995009535342368012
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action"
+      internalID: -3759512782087970988
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.001"
+      internalID: -3170430303237085387
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u043D\u043E\u0433\u0438Action.002"
+      internalID: -3913634756723109820
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action"
+      internalID: 4830089966784554878
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.001"
+      internalID: 5419205325459891851
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u043F\u0440\u0430\u0432\u043E\u0439 \u0440\u0443\u043A\u0438Action.002"
+      internalID: 4163608820984035289
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action"
+      internalID: 1538274670274150509
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041A\u043E\u0441\u0442\u044C
+        \u0442\u0435\u043B\u0430Action.001"
+      internalID: -1286292395447610702
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041B\u0435\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: -7006531554054432986
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u041F\u0440\u0430\u0432\u0430\u044F
+        \u043D\u043E\u0433\u0430Action"
+      internalID: 3857655698209082473
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0422\u0435\u043B\u043EAction"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0422\u0435\u043B\u043EAction"
+      internalID: 3217300647076643317
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0423\u043B\u044B\u0431\u043A\u0430Action"
+      internalID: 3521861419080358749
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0428\u043B\u044F\u043F\u0430Action"
+      takeName: "\u041A\u043E\u0441\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u044B|\u0428\u043B\u044F\u043F\u0430Action"
+      internalID: 1973101923152630506
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []

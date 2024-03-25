@@ -18,7 +18,7 @@ namespace MiniGame.MovingCubes
 
         private void OnEnable()
         {
-            _finish.EndGame += OnEndGame;
+            _finish.PlayerReachedFinish += OnEndGame;
 
             _controler = GetComponent<MoveCubesController>();
             _assistan.Init(_config);
@@ -27,7 +27,7 @@ namespace MiniGame.MovingCubes
 
         private void OnDisable()
         {
-            _finish.EndGame -= OnEndGame;
+            _finish.PlayerReachedFinish -= OnEndGame;
         }
 
         private void OnEndGame()

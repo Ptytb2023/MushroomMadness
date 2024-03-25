@@ -11,6 +11,7 @@ using Zenject;
 public class ZoneMiniGame : MonoBehaviour
 {
     [SerializeField] private MiniGameManger _miniGame;
+    [SerializeField] private Blockage _blockage;
 
     [SerializeField] private BlinkText _text;
     [SerializeField] private HandlerLaunchMiniGame _launcher;
@@ -72,6 +73,7 @@ public class ZoneMiniGame : MonoBehaviour
         {
             TrunOffViewGame();
             PassedMiniGame?.Invoke();
+            _blockage.ExplodePassege();
         }
         else
         {
