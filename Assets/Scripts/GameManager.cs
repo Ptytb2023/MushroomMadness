@@ -1,12 +1,16 @@
+using MiniGame.MovingCubes;
+using MushroomMadness.Player;
 using MushroomMadness.SceneLoadGame;
 using MushroomMadness.UI;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using Zenject;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private Player _player;
+
+    [Space]
     [SerializeField] private GameUIManager _gameUIManager;
 
     [Space]
@@ -15,17 +19,19 @@ public class GameManager : MonoBehaviour
     [Space]
     [SerializeField] private SceneLoadManager _sceneLoadManager;
     [SerializeField] private int _IdMainMenu = 0;
-    [SerializeField] private int _IdNextLevel = 0;
+    [SerializeField][Min(-1)] private int _IdNextLevel = -1;
 
-  
+    [Space]
+    [SerializeField] private MushroomMadness.Zone.FinishZone _finishZone;
 
     public int CountPassedMiniGame { get; private set; }
-    public float TimerGame { get; private set; }
+    public float TimeGame { get; private set; }
 
+    private Coroutine _timer;
 
-    private void Update()
+    private void Start()
     {
-        TimerGame += Time.deltaTime;
+        _timer = StartCoroutine(TimerUpdate());
     }
 
     private void OnEnable()
@@ -35,6 +41,7 @@ public class GameManager : MonoBehaviour
         foreach (var zone in _zones)
             zone.PassedMiniGame += OnPassedMiniGame;
 
+        _finishZone.PlayerReachedFinish += EndGame;
     }
 
     private void OnDisable()
@@ -43,6 +50,8 @@ public class GameManager : MonoBehaviour
 
         foreach (var zone in _zones)
             zone.PassedMiniGame -= OnPassedMiniGame;
+
+        _finishZone.PlayerReachedFinish -= EndGame;
     }
 
     private void OnTransionMainMenu()
@@ -53,5 +62,27 @@ public class GameManager : MonoBehaviour
     private void OnPassedMiniGame()
     {
         CountPassedMiniGame++;
+    }
+
+    private IEnumerator TimerUpdate()
+    {
+        TimeGame += Time.deltaTime;
+        yield return null;
+    }
+
+    private void EndGame()
+    {
+        bool isNextLevel = _IdNextLevel > 0;
+        StopCoroutine(_timer);
+
+        _gameUIManager.ShowScreenVictory(CountPassedMiniGame, _zones.Count, TimeGame, isNextLevel);
+
+        _gameUIManager.ClickButtonVictory += OnClickButtonVictory;
+    }
+
+    private void OnClickButtonVictory()
+    {
+        int idScene = _IdNextLevel > 0 ? _IdNextLevel : _IdMainMenu;
+        _sceneLoadManager.LoadScene(idScene);
     }
 }

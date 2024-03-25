@@ -21,6 +21,7 @@ public class PauseHandler : MonoBehaviour
     {
         _gameUIManager.PauseOpen += SetPause;
         _sceneLoadManager.ReadySceneLoad += ReadySceneLoad;
+        _gameUIManager.VictoryOpen += SetPause;
     }
 
     private void OnDisable()

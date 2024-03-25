@@ -28,7 +28,6 @@ namespace MiniGame.Handlers
             SetActiveInspectCamera(true);
 
             _player.SetActiveMove(false);
-            Debug.Log(this.name + "SetActiveMove(false)");
 
             _currentMiniGame.EndGame += ExitGame;
             _input.ClickExitGame += OnClickExitGame;
@@ -62,7 +61,6 @@ namespace MiniGame.Handlers
             _input.ClickResetGame -= OnClickResetGame;
 
             _player.SetActiveMove(true);
-            Debug.Log(this.name + "SetActiveMove(true)");
 
         }
 
