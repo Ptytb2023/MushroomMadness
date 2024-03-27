@@ -10945,7 +10945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043C\u0435\u043D\u044E"
+  m_text: "\u041C\u0435\u043D\u044E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12702,6 +12702,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8827258693976359429, guid: 183f24574cfb18b40837c1809ba61162, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09223
+      objectReference: {fileID: 0}
+    - target: {fileID: -8827258693976359429, guid: 183f24574cfb18b40837c1809ba61162, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0131
+      objectReference: {fileID: 0}
+    - target: {fileID: -8827258693976359429, guid: 183f24574cfb18b40837c1809ba61162, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01967
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 183f24574cfb18b40837c1809ba61162, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
