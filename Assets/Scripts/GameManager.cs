@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     [Space]
     [SerializeField] private MushroomMadness.Zone.FinishZone _finishZone;
 
-    public int CountPassedMiniGame { get; private set; }
     public float TimeGame { get; private set; }
 
     private Coroutine _timer;
@@ -36,20 +35,12 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         _gameUIManager.TransionMainMenu += OnTransionMainMenu;
-
-        foreach (var zone in _zones)
-            zone.PassedMiniGame += OnPassedMiniGame;
-
         _finishZone.PlayerReachedFinish += EndGame;
     }
 
     private void OnDisable()
     {
         _gameUIManager.TransionMainMenu -= OnTransionMainMenu;
-
-        foreach (var zone in _zones)
-            zone.PassedMiniGame -= OnPassedMiniGame;
-
         _finishZone.PlayerReachedFinish -= EndGame;
     }
 
@@ -58,10 +49,7 @@ public class GameManager : MonoBehaviour
         _sceneLoadManager.LoadScene(_IdMainMenu);
     }
 
-    private void OnPassedMiniGame()
-    {
-        CountPassedMiniGame++;
-    }
+
 
     private IEnumerator TimerUpdate()
     {
@@ -77,7 +65,15 @@ public class GameManager : MonoBehaviour
         bool isNextLevel = _IdNextLevel > 0;
         StopCoroutine(_timer);
 
-        _gameUIManager.ShowScreenVictory(CountPassedMiniGame, _zones.Count, TimeGame, isNextLevel);
+        int coutPassed = 0;
+
+        foreach (var zone in _zones)
+        {
+            if (zone.IsPassed)
+                coutPassed++;
+        }
+
+        _gameUIManager.ShowScreenVictory(coutPassed, _zones.Count, TimeGame, isNextLevel);
 
         _gameUIManager.ClickButtonVictory += OnClickButtonVictory;
     }

@@ -22,7 +22,6 @@ public class ZoneMiniGame : MonoBehaviour
 
     public bool IsPassed;
 
-    public event Action PassedMiniGame;
 
 
     private void Start()
@@ -72,7 +71,6 @@ public class ZoneMiniGame : MonoBehaviour
         if (IsPassed)
         {
             TrunOffViewGame();
-            PassedMiniGame?.Invoke();
             _blockage.ExplodePassege();
         }
         else
