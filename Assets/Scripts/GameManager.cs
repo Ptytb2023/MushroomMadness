@@ -1,4 +1,3 @@
-using MiniGame.MovingCubes;
 using MushroomMadness.Player;
 using MushroomMadness.SceneLoadGame;
 using MushroomMadness.UI;
@@ -66,8 +65,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator TimerUpdate()
     {
-        TimeGame += Time.deltaTime;
-        yield return null;
+        while (enabled && Time.timeScale > 0)
+        {
+            TimeGame++;
+            yield return new WaitForSeconds(1);
+        }
     }
 
     private void EndGame()

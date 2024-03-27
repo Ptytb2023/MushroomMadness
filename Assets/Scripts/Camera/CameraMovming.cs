@@ -1,6 +1,5 @@
 using MushroomMadness.Player;
 using System.Collections;
-using System.Net.NetworkInformation;
 using UnityEngine;
 
 public class CameraMoving : MonoBehaviour
@@ -13,6 +12,7 @@ public class CameraMoving : MonoBehaviour
     [Min(0)]
     [Tooltip("Скорость камеры")]
     [SerializeField] private float _dumping = 0.22f;
+    [SerializeField] private float _speedRotatin = 0f;
 
     [Tooltip("Должна ли камера всегда смотреть на персонажа")]
     [SerializeField] private bool _isLookOnTarget = true;
@@ -27,38 +27,61 @@ public class CameraMoving : MonoBehaviour
 
     private Transform _curentTarget;
     private float _currentDumping;
+    private float _currentSpeedRotatin;
 
 
-    private void Start()
-    {
-        _currentDumping = _dumping;
-        _curentTarget = _player.transform;
-    }
+    private readonly TypeMove _startTypeMove = TypeMove.Lerp;
+    private TypeMove _currentTypeMove;
+
+
+    private void Start() => SetDefaultParametrs();
 
     private void LateUpdate() => MoveToTarget();
 
     private void MoveToTarget()
     {
-        var newPostion = _curentTarget.position - _offset;
-        transform.position = Vector3.Lerp(transform.position, newPostion, _currentDumping * Time.deltaTime);
+        var direction = _curentTarget.position - _offset;
+        transform.position = GetNewPositin(transform.position, direction, _currentTypeMove);
 
         if (_isLookOnTarget)
-            transform.LookAt(_curentTarget);
+            LookAtTarger();
     }
 
-    private void FastMoveToTarget()
+    private void LookAtTarger()
     {
-        var newPostion = _player.transform.position - _offset;
-        transform.position = newPostion;
+        var targetRotation = Quaternion.LookRotation(_curentTarget.transform.position - transform.position);
 
-        if (_isLookOnTarget)
-            transform.LookAt(_player.transform);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 
+            _currentSpeedRotatin * Time.deltaTime);
     }
 
-    public void TakeLookByTime(Transform target, float viewingTime,float dumping)
+    private Vector3 GetNewPositin(Vector3 position, Vector3 direction, TypeMove type)
+    {
+        switch (type)
+        {
+            case TypeMove.Lerp:
+
+                return Vector3.Lerp(position, direction, _currentDumping * Time.deltaTime);
+
+            case TypeMove.Towards:
+                return Vector3.MoveTowards(position, direction, _currentDumping * Time.deltaTime);
+
+            case TypeMove.Slerp:
+                return Vector3.Slerp(position, direction, _currentDumping * Time.deltaTime);
+
+            default:
+                return Vector3.zero;
+        }
+    }
+
+
+    public void TakeLookByTime(Transform target, float viewingTime,
+        float dumping, float speedRotation, TypeMove typeMove)
     {
         if (viewingTime < 0) return;
 
+        _currentSpeedRotatin = speedRotation;
+        _currentTypeMove = typeMove;
         _curentTarget = target;
         _currentDumping = dumping;
 
@@ -69,20 +92,37 @@ public class CameraMoving : MonoBehaviour
     {
         _player.SetActiveMove(false);
 
-
         while (enabled && viewingTime > 0)
         {
             viewingTime -= Time.deltaTime;
             yield return null;
         }
 
+        SetDefaultParametrs();
+        _player.SetActiveMove(true);
+    }
+
+    private void SetDefaultParametrs()
+    {
         _curentTarget = _player.transform;
         _currentDumping = _dumping;
-        _player.SetActiveMove(true);
+        _currentTypeMove = _startTypeMove;
+        _currentSpeedRotatin = _speedRotatin;
     }
 
     private void OnValidate()
     {
-        FastMoveToTarget();
+        var newPostion = _player.transform.position - _offset;
+        transform.position = newPostion;
+
+        if (_isLookOnTarget)
+            transform.LookAt(_player.transform);
     }
+}
+
+public enum TypeMove
+{
+    Lerp = 1,
+    Towards = 2,
+    Slerp = 3,
 }

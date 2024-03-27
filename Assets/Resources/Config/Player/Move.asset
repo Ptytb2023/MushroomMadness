@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd665b32620531e49ae9d042555c6585, type: 3}
   m_Name: Move
   m_EditorClassIdentifier: 
-  _moveSpeed: 22.74
-  _gravity: -9.9
+  _moveSpeed: 11.36
+  _gravity: -25.7
   _animationJump:
     serializedVersion: 2
     m_Curve:
@@ -38,6 +38,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _durationJump: 0.09
-  _heightJump: 4.46
-  _rotationSpeed: 2.52
+  _durationJump: 0.24
+  _heightJump: 6
+  _rotationSpeed: 0.18

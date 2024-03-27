@@ -12,8 +12,8 @@ public class Stone : MonoBehaviour
     public Rigidbody Rigidbody;
     private MeshRenderer _meshRenderer;
 
-    private const float _alphaVisible = 1f;
-    private const float _alphaNotVisible = 0.3f;
+    private const float _alphaVisibility = 1f;
+    private const float _alphaInvisibility = 0.3f;
 
     private void Start()
     {
@@ -23,8 +23,6 @@ public class Stone : MonoBehaviour
 
     public void Broke()
     {
-        if (Rigidbody == null) return;
-        Rigidbody.isKinematic = false;
         StartCoroutine(DeleyDestroy());
     }
 
@@ -46,10 +44,10 @@ public class Stone : MonoBehaviour
         {
             _timeFade -= Time.deltaTime;
 
-            _meshRenderer.material.DOFade(_alphaVisible, _colorChangeSpeed);
+            _meshRenderer.material.DOFade(_alphaVisibility, _colorChangeSpeed);
             yield return new WaitForSeconds(_colorChangeSpeed);
 
-            _meshRenderer.material.DOFade(_alphaNotVisible, _colorChangeSpeed);
+            _meshRenderer.material.DOFade(_alphaInvisibility, _colorChangeSpeed);
             yield return new WaitForSeconds(_colorChangeSpeed);
 
             _timeFade -= _colorChangeSpeed + _colorChangeSpeed;

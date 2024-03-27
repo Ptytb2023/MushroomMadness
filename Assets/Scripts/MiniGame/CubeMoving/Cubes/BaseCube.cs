@@ -70,7 +70,7 @@ namespace MiniGame.MovingCubes.Cubes
                 else if (AxisMovement == DirectionMoving.Vertical)
                     RigidbodyCube.constraints = RigidbodyConstraints.FreezePositionX;
             }
-
+           
             RigidbodyCube.freezeRotation = true;
         }
 

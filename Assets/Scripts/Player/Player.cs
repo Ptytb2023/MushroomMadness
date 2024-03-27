@@ -26,7 +26,6 @@ namespace MushroomMadness.Player
         {
             float elapsedTime = _timeOffMove;
             SetActiveMove(false);
-            Debug.Log(this.name + "SetActivfalse");
 
             transform.position = _startPosition;
 
@@ -37,7 +36,6 @@ namespace MushroomMadness.Player
             }
 
             SetActiveMove(true);
-            Debug.Log(this.name + "SetActivTrue");
         }
 
 

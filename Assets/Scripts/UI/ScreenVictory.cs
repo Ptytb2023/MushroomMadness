@@ -31,9 +31,9 @@ namespace MushroomMadness.UI
 
         public void SetInfo(int passedGame, int maxGame, float TimeGameSecond, string textButton)
         {
-            var timeInMinut = TimeGameSecond / secondInMinut;
-            var timeSecond = TimeGameSecond % secondInMinut;
-            _labelTimeGame.text = $"{timeInMinut}:{timeSecond}";
+            TimeSpan time = TimeSpan.FromSeconds(TimeGameSecond);
+
+            _labelTimeGame.text = time.ToString("hh':'mm':'ss");
             _labelPassedGame.text = passedGame.ToString() + '/' + maxGame.ToString();
 
             _labelButton.text = textButton;

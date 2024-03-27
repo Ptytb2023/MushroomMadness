@@ -1,5 +1,6 @@
 using MushroomMadness.Config.Player;
 using MushroomMadness.InputSystem;
+using System;
 using System.Collections;
 using UnityEngine;
 using Zenject;
@@ -10,6 +11,8 @@ namespace MushroomMadness.Controllers
     public class MovePlayerConroller : MonoBehaviour
     {
         [SerializeField] private ConfigMove _congig;
+        [SerializeField] private CameraMoving _camera;
+        [SerializeField] private AudioSource _audioSource;
 
         [Inject] private IInputMove _input;
 
@@ -19,6 +22,9 @@ namespace MushroomMadness.Controllers
         private Vector3 _velocity;
 
         private bool _isGrounded => _characterController.isGrounded;
+
+        public event Action<bool> Jump;
+        public event Action<bool> Run;
 
         private void Start() => _characterController = GetComponent<CharacterController>();
 
@@ -42,6 +48,7 @@ namespace MushroomMadness.Controllers
 
         private void FixedUpdate() => Gravitation();
 
+
         private void Move() => _characterController.Move(_velocity * Time.deltaTime);
 
         private void Rotation()
@@ -49,20 +56,20 @@ namespace MushroomMadness.Controllers
             if (_velocity.x == 0 && _velocity.z == 0)
                 return;
 
-
             float speed = _congig.RotationSpeed;
-
             Vector3 moveDircetion = _velocity;
             moveDircetion.y = 0f;
-            Quaternion toRotation = Quaternion.LookRotation(moveDircetion);
 
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, speed);
+            Quaternion toRotation = Quaternion.LookRotation(moveDircetion);
+            transform.rotation = Quaternion.Slerp(transform.rotation, toRotation, speed);
         }
 
         private void Gravitation()
         {
             if (!_isGrounded)
                 _velocity.y += _congig.Gravity * Time.deltaTime;
+            else
+                Jump?.Invoke(false);
         }
 
         private void OnClickJump()
@@ -77,23 +84,33 @@ namespace MushroomMadness.Controllers
             {
                 if (_moving != null)
                     StopCoroutine(_moving);
+
                 _velocity.x = 0f;
                 _velocity.z = 0f;
+
+                Run?.Invoke(false);
+                _audioSource.Stop();
                 return;
             }
-
             _moving = StartCoroutine(SetDirectionXAndZ());
+            _audioSource.Play();
         }
 
 
         public IEnumerator SetDirectionXAndZ()
         {
+            Run?.Invoke(true);
+
             float speedMove = _congig.MoveSpeed;
 
             while (enabled)
             {
-                Vector2 direction = _input.GetDirectionMove() * speedMove;
-                _velocity = new Vector3(direction.x, _velocity.y, direction.y);
+                var direction = _input.GetDirectionMove() * speedMove;
+
+                Vector3 move = Quaternion.Euler(0, _camera.transform.eulerAngles.y, 0)
+                    * new Vector3(direction.x, 0, direction.y);
+
+                _velocity = new Vector3(move.x, _velocity.y, move.z);
 
                 yield return null;
             }
@@ -106,7 +123,9 @@ namespace MushroomMadness.Controllers
             float height = _congig.HeightJump;
             var animationCurve = _congig.AnimationJump;
 
-            while (elapsedTime <= duration)
+            Jump?.Invoke(true);
+
+            while (elapsedTime <= duration && enabled)
             {
                 elapsedTime += Time.deltaTime;
 
@@ -118,6 +137,7 @@ namespace MushroomMadness.Controllers
                 yield return null;
             }
 
+
             yield break;
         }
 
@@ -125,6 +145,9 @@ namespace MushroomMadness.Controllers
         public void ResetMove()
         {
             StopAllCoroutines();
+            Run?.Invoke(false);
+            Jump?.Invoke(false);
+            _audioSource.Stop();
             _velocity = Vector3.zero;
         }
     }
