@@ -13,7 +13,6 @@ namespace MushroomMadness.UI
         [SerializeField] private TMP_Text _labelPassedGame;
         [SerializeField] private TMP_Text _labelTimeGame;
 
-        private const float secondInMinut = 60f;
 
         public event Action ClickButton;
 
