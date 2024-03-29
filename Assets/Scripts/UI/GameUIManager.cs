@@ -12,6 +12,7 @@ namespace MushroomMadness.UI
         [SerializeField] private ScreenVictory _victory;
         [SerializeField] private ScreenLoadGame _loadGame;
         [SerializeField] private ScreenPause _pause;
+        [SerializeField] private ScreenDialog _dialog;
 
         [Inject]
         private IInputMiniGame _miniGame;
@@ -23,6 +24,11 @@ namespace MushroomMadness.UI
         public event Action<bool> VictoryOpen;
         public event Action TransionMainMenu;
         public event Action ClickButtonVictory;
+
+        private void Start()
+        {
+            _dialog.gameObject.SetActive(true);
+        }
 
         private void OnEnable()
         {

@@ -14,8 +14,20 @@ namespace MiniGame.MovingCubes.Config
         [Min(0f)]
         [SerializeField] private float _durationFade;
 
-        [SerializeField] public float SpeedMove => _speedMove;
-        [SerializeField] public float AlphaTransparency => _alphaTransparency;
-        [SerializeField] public float DurationFade => _durationFade;
+        [Space]
+        [SerializeField] private Sprite _spriteMoveHorizontal;
+        [SerializeField] private Sprite _spriteMoveVertical;
+        [SerializeField] private Sprite _spriteMoveAll;
+        [SerializeField] private Sprite _spriteMoveNone;
+
+
+        public float SpeedMove => _speedMove;
+        public float AlphaTransparency => _alphaTransparency;
+        public float DurationFade => _durationFade;
+
+        public Sprite SpriteMoveVertical => _spriteMoveVertical;
+        public Sprite SpriteMoveHoriizontal => _spriteMoveHorizontal;
+        public Sprite SpriteMoveAll => _spriteMoveAll;
+        public Sprite SpriteMoveNone => _spriteMoveNone;
     }
 }

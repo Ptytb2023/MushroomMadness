@@ -1,6 +1,7 @@
 using MushroomMadness.Controllers;
 using System.Collections;
 using UnityEngine;
+using Zenject;
 
 namespace MushroomMadness.Player
 {
@@ -10,6 +11,9 @@ namespace MushroomMadness.Player
         private MovePlayerConroller _conroller;
         private Vector3 _startPosition;
         private const float _timeOffMove = 1f;
+
+        [Inject]
+        private IinputInterface _input;
 
         private void Start()
         {

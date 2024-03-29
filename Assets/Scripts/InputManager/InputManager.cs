@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace MushroomMadness.InputSystem
 {
-    public class InputManager : IInputMove, IInputMiniGame, IDisposable
+    public class InputManager : IInputMove, IInputMiniGame, IinputInterface, IDisposable
     {
         private MainInputMap _mainInputMap;
 
@@ -13,6 +13,7 @@ namespace MushroomMadness.InputSystem
         public event Action ClickResetGame;
         public event Action ClickExitGame;
         public event Action ClickStartGame;
+        public event Action ClickMap;
 
         public MainInputMap InputMap => _mainInputMap;
 
@@ -46,7 +47,9 @@ namespace MushroomMadness.InputSystem
             _mainInputMap.MiniGame.ResetGame.performed += stx => ClickResetGame?.Invoke();
             _mainInputMap.MiniGame.ExitGame.performed += stx => ClickExitGame?.Invoke();
             _mainInputMap.MiniGame.StartGame.performed += stx => ClickStartGame?.Invoke();
+
         }
+
 
         private void TurnOff()
         {
@@ -61,6 +64,7 @@ namespace MushroomMadness.InputSystem
             _mainInputMap.MiniGame.ResetGame.performed -= stx => ClickResetGame.Invoke();
             _mainInputMap.MiniGame.ExitGame.performed -= stx => ClickExitGame.Invoke();
             _mainInputMap.MiniGame.StartGame.performed -= stx => ClickStartGame.Invoke();
+
         }
 
         public Vector2 GetDirectionMove()
@@ -81,6 +85,8 @@ namespace MushroomMadness.InputSystem
                 _mainInputMap.Player.Move.canceled -= stx => ClickMove.Invoke(false);
 
                 _mainInputMap.Player.Jump.performed -= stx => ClickJump.Invoke();
+
+                _mainInputMap.Player.Map.performed -= stx => ClickMap?.Invoke();
             }
             else if (active)
             {
@@ -88,6 +94,8 @@ namespace MushroomMadness.InputSystem
                 _mainInputMap.Player.Move.canceled += stx => ClickMove?.Invoke(false);
 
                 _mainInputMap.Player.Jump.performed += stx => ClickJump?.Invoke();
+
+                _mainInputMap.Player.Map.performed += stx => ClickMap?.Invoke();
             }
         }
     }

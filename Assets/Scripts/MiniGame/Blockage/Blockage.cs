@@ -38,7 +38,7 @@ public class Blockage : MonoBehaviour
     {
         float delay = _viewingTimeCamera / 2f;
 
-        _camera.TakeLookByTime(transform, _viewingTimeCamera,
+        _camera.TakeLookTargerByTime(transform, _viewingTimeCamera,
             _dumpingCamera, _speedRotatin, TypeMove.Towards);
 
         while (enabled && delay > 0)

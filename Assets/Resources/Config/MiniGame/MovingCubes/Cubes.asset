@@ -15,3 +15,7 @@ MonoBehaviour:
   _speedMove: 50
   _alphaTransparency: 0.3
   _durationFade: 0.5
+  _spriteMoveHorizontal: {fileID: 21300000, guid: 57fa6c1efe7e18b4dbc8741959c2dfec, type: 3}
+  _spriteMoveVertical: {fileID: 21300000, guid: c166797467930c545b38170b1fd86fc0, type: 3}
+  _spriteMoveAll: {fileID: 21300000, guid: 84efc4c069154bd4f83104e24d3bda40, type: 3}
+  _spriteMoveNone: {fileID: 21300000, guid: 3741809146a4ad545a3865d413529261, type: 3}

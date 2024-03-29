@@ -1,5 +1,6 @@
 using MiniGame.MovingCubes.Config;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MiniGame.MovingCubes.Cubes
 {
@@ -7,6 +8,7 @@ namespace MiniGame.MovingCubes.Cubes
     public abstract class BaseCube : MonoBehaviour, IResetGame
     {
         [SerializeField] private FrezePosition _frezePosition;
+        [SerializeField] private Image _iconMoveDirection;
 
         [field: SerializeField] protected DirectionMoving AxisMovement { get; private set; }
         protected ConfigCubes Config { get; private set; }
@@ -32,6 +34,22 @@ namespace MiniGame.MovingCubes.Cubes
                 return;
 
             Config = config;
+
+            switch (AxisMovement)
+            {
+                case DirectionMoving.Horizontal:
+                    _iconMoveDirection.sprite = Config.SpriteMoveHoriizontal;
+                    break;
+                case DirectionMoving.Vertical:
+                    _iconMoveDirection.sprite = Config.SpriteMoveVertical;
+                    break;
+                case DirectionMoving.All:
+                    _iconMoveDirection.sprite = Config.SpriteMoveAll;
+                    break;
+                case DirectionMoving.None:
+                    _iconMoveDirection.sprite = Config.SpriteMoveNone;
+                    break;
+            }
         }
 
         protected abstract void ResetCube();

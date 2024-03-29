@@ -26,6 +26,7 @@ public class CameraMoving : MonoBehaviour
 
 
     private Transform _curentTarget;
+    private Vector3 _currentOffSet;
     private float _currentDumping;
     private float _currentSpeedRotatin;
 
@@ -40,7 +41,7 @@ public class CameraMoving : MonoBehaviour
 
     private void MoveToTarget()
     {
-        var direction = _curentTarget.position - _offset;
+        var direction = _curentTarget.position - _currentOffSet;
         transform.position = GetNewPositin(transform.position, direction, _currentTypeMove);
 
         if (_isLookOnTarget)
@@ -51,7 +52,7 @@ public class CameraMoving : MonoBehaviour
     {
         var targetRotation = Quaternion.LookRotation(_curentTarget.transform.position - transform.position);
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation,
             _currentSpeedRotatin * Time.deltaTime);
     }
 
@@ -74,18 +75,25 @@ public class CameraMoving : MonoBehaviour
         }
     }
 
-
-    public void TakeLookByTime(Transform target, float viewingTime,
+    public void TakeLookTargerByTime(Transform target, float viewingTime,
         float dumping, float speedRotation, TypeMove typeMove)
     {
         if (viewingTime < 0) return;
 
+         
         _currentSpeedRotatin = speedRotation;
         _currentTypeMove = typeMove;
         _curentTarget = target;
         _currentDumping = dumping;
 
         StartCoroutine(LookNewTarget(viewingTime));
+    }
+
+    public void TakeLookTargerByTime(Transform target, float viewingTime,
+        float dumping, float speedRotation, TypeMove typeMove, Vector3 offSet)
+    {
+        _currentOffSet = offSet;
+        TakeLookTargerByTime(target, viewingTime, dumping, speedRotation, typeMove);
     }
 
     private IEnumerator LookNewTarget(float viewingTime)
@@ -104,20 +112,21 @@ public class CameraMoving : MonoBehaviour
 
     private void SetDefaultParametrs()
     {
+        _currentOffSet = _offset;
         _curentTarget = _player.transform;
         _currentDumping = _dumping;
         _currentTypeMove = _startTypeMove;
         _currentSpeedRotatin = _speedRotatin;
     }
 
-    private void OnValidate()
-    {
-        var newPostion = _player.transform.position - _offset;
-        transform.position = newPostion;
+    //private void OnValidate()
+    //{
+    //    var newPostion = _player.transform.position - _offset;
+    //    transform.position = newPostion;
 
-        if (_isLookOnTarget)
-            transform.LookAt(_player.transform);
-    }
+    //    if (_isLookOnTarget)
+    //        transform.LookAt(_player.transform);
+    //}
 }
 
 public enum TypeMove
